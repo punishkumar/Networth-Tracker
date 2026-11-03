@@ -1,0 +1,3 @@
+@echo off
+echo Starting Networth Tracker...
+start "" "%~dp0dist-electron\win-unpacked\Networth Tracker.exe"

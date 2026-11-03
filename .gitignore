@@ -1,0 +1,43 @@
+# Personal statements and sensitive upload files
+*.xlsx
+*.xls
+sample-data/zerodha_console_holdings.csv
+*.user_uploaded*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production & Packaging Builds
+dist/
+dist-electron/
+dist-staging/
+release/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files & Local Config
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
